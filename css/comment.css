@@ -1,0 +1,29 @@
+/* comment */
+.card-body div>input {
+    border: none;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.comment>i {
+    margin-top: 9px;
+    margin-right: 10px
+}
+
+.card-body div>button {
+    font-size: 15px;
+    color: rgb(136, 136, 220);
+
+    margin-top: 9px;
+    padding: 8px;
+
+    background-color: transparent;
+    border: none;
+    outline: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+    cursor: pointer;
+}

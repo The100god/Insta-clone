@@ -1,0 +1,49 @@
+
+.gnb {
+    height: 60px;
+	border-bottom: 2px inset rgb(239, 239, 239);
+
+}
+
+.gnb>.contents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* instagram image */
+.contents img {
+    width: 150px;
+    margin-right: auto;
+}
+
+/* inputbox */
+.contents>input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(232, 232, 232);
+    margin: auto;
+}
+
+/* the last div css in the content  */
+.contents div:last-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    padding: 0 10px;
+    font-size: 25px;
+}
+
+/* icons */
+.contents div >i {
+    margin: 0 5px;
+    cursor: pointer;
+}
